@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial Narrow', Arial, sans-serif ;
+    
+    }
+    nav{
+        background-color:rgb(255, 255, 255);
+        color: white;
+    }
+    
+    .menu {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    .menu li{
+        width: 10%;
+        list-style: none;
+    }
+    .menu a{
+        color: white;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        text-decoration: none;
+    }
+.cuadrado {
+    width: 100px; 
+    height: 100px; 
+    border: 3px solid rgb(171, 109, 243);
+    background: #b668eb;
+    box-shadow: 7px 7px 8px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.triangulo-tricolor {
+    width: 0; 
+    height: 0; 
+    border-left: 100px solid #39c0d8;
+    border-top: 50px solid #fdec00;
+    border-bottom: 50px solid #ff00bf; 
+    box-shadow: 7px 7px 8px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.pac-man { width:0;
+     height:0;
+      border-right: 50px solid transparent;
+       border-top: 50px solid #18b4fc;
+     border-left: 50px solid #40fd07;
+      border-bottom: 50px solid #e4fd06;
+       -moz-border-radius: 100%; -webkit-border-radius: 100%; border-radius: 100%;
+       
+       margin-left: auto;
+       margin-right: auto;
+}
+
+.circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 3px solid rgb(35, 92, 92);
+    background: #2fb3a8;
+    box-shadow: 5px 5px 7px rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+.footer{
+    background-color:#767c81;
+    text-align: center;
+    position: fixed;
+    height: 20px;
+    width: 100%;
+    bottom: 0;
+}
+.testbox{
+    background-color: #1cffec;
+border: 3px solid black;
+padding: 11px;
+text-align: center;
+margin: 0px auto;
+width: 1299px;
+Border-radius: 40%;
+}
